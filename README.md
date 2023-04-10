@@ -1,4 +1,9 @@
-# DM crypto: PRESENT24
+# PRESENT24
+## présentation du projet
+* Chiffrement et déchiffrement du chiffrement par bloc PRESENT24 insipré du chiffrement PRESENT.
+* Implantation de l’attaque par le milieu (meet in the middle) sur la version double 2PRESENT24.
+* Pour plus d'information vous pouvez lire le pdf: sujet_projet.pdf
+
 
 ## MATERIEL NECESSAIRE
 Il est nécessaire d'executer le code sur un ordinateur ayant au moins 12 CPU, en effet, à un moment, le programme s'execute sur 8 CPU. 
