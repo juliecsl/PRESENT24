@@ -9,10 +9,10 @@
 ### Matériel nécessaire
 Il est nécessaire d'executer le code sur un ordinateur ayant au moins 8 CPU, en effet, à un moment le programme s'execute sur 8 CPU pour accélérer les calculs. 
 
-## Execution du code
+### Execution du code
 Pour executer, il faut l'executer sur VSCODE, éditeur de code pour Windows, Linux et macOS.
 
-## Librairies nécessaires
+### Librairies nécessaires
 Les librairies nécessaires à l'execution du code sont normalement déjà installées par défaut, dans le cas contraire il est nécessaire de les télécharger:
 
 - datetime
@@ -25,6 +25,9 @@ pip install datetime
 ```bash
 pip install multiprocessing
 ```
+
+### Version Python
+3.8.16
 
 
 ## Utilisation du projet
