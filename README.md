@@ -32,16 +32,16 @@ pip install multiprocessing
 
 ## Utilisation du projet
 Pour entrer ses propres clés, messages chiffrés, messages clairs, il est necessaire de modifier direcement les valeurs dans le code.
-- PRESENT24_chiffrement.py les valeurs sont à changer dans le **bas** du code: lignes 101 et 102.
-- PRESENT24_dechiffrement.py les valeurs sont à changer dans le **bas** du code: lignes 96 et 97.
+- [PRESENT24_chiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_chiffrement.py) les valeurs sont à changer dans le **bas** du code: lignes 101 et 102.
+- [PRESENT24_dechiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_dechiffrement.py) les valeurs sont à changer dans le **bas** du code: lignes 96 et 97.
 - Attaque_par_le_milieu: les valeurs sont à changer dans le **haut** du code: lignes 8 à 11.
 
-Pour executer le fichier PRESENT_24_chiffrement.py et PRESENT_24_déchiffrement.py il est necessaire d'appeler la fonction en bas du programme en enlevant les # lignes:
+Pour executer le fichier [PRESENT_24_chiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_chiffrement.py) et [PRESENT_24_déchiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_dechiffrement.py) il est necessaire d'appeler la fonction en bas du programme en enlevant les # lignes:
 - 101 à 103 pour le chiffrement
 - 96 à 98 pour le déchiffrement.
 
-Pour faire l'attaque par le milieu, il faut executer le programme attaque_par_le_milieu.py (qui va créer 8 fichiers .txt) et qui prend environ 20 minutes.
+Pour faire l'attaque par le milieu, il faut executer le programme [attaque_par_le_milieu.py](https://github.com/juliecsl/PRESENT24/blob/main/src/attaque_par_le_milieu.py) (qui va créer 8 fichiers .txt) et qui prend environ 20 minutes.
 (Le résultat des clés trouvées peut se cacher dans les prints du terminal, pensez à remonter dans le terminal pour voir tous les couples de clés trouvés.)
 
 ## Autre
-Vous trouverez dans le dossier des programmes .py nommés PRESENT24_dechiffrement_avec_fonctions.py et PRESENT24_dechiffrement_avec_fonctions.py qui sont des programmes faisant la meme chose que PRESENT24_chiffrement.py et PRESENT24_dechiffrement mais qui diffèrent en grande partie par leur implémentation avec plein de petites fonctions pour rendre la lecture du programme plus simple.
+Vous trouverez dans le dossier des programmes .py nommés PRESENT24_dechiffrement_avec_fonctions.py et PRESENT24_dechiffrement_avec_fonctions.py qui sont des programmes faisant la meme chose que [PRESENT24_chiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_chiffrement.py) et [PRESENT24_dechiffrement.py](https://github.com/juliecsl/PRESENT24/blob/main/src/PRESENT24_dechiffrement.py) mais qui diffèrent en grande partie par leur implémentation avec plein de petites fonctions pour rendre la lecture du programme plus simple.
