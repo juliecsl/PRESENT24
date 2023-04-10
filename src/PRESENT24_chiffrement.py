@@ -4,8 +4,6 @@
 import numpy as np
 import time
 
-t1 = time.time_ns()
-
 # ####################################
 # FONCTIONS
 
