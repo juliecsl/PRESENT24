@@ -86,18 +86,6 @@ def main_dechiffrement(chiffre, cle_maitre):
     Sortie: message déchiffré de 6 bits en hexadécimal en str. 
     """
 
-    dico_substitution_inv = { "0": "5", "1": "e", "2": "f", "3": "8", "4": "c", "5": "1", "6": "2",
-                            "7": "d", "8": "b", "9": "4", "a": "6", "b": "3", "c": "0", "d": "7", 
-                            "e": "9", "f": "a"}
-
-    dico_substitution = {"0":"c", "1":"5", "2":"6", "3":"b", "4":"9", "5":"0", "6":"a", 
-            "7":"d", "8":"3", "9":"e", "a":"f", "b":"8", "c":"4", "d":"7", 
-            "e":"1", "f":"2"}
-
-    liste_permutation = [0, 6, 12, 18, 1, 7, 13, 19, 2, 8, 14, 20, 3, 9, 15, 
-                         21, 4, 10, 16, 22, 5, 11, 17, 23]
-
-
     K = str(cle_maitre) + str("0"*14)  # registre de 20 bits en hexa
     K = bin(int(K, 16))[2:].zfill(80)  # Convertie de l'hexa vers le binaire  # Si le resultat de la conversion en hex fait moins de 80 bits on rajoute des 0 à gauche. 
 
