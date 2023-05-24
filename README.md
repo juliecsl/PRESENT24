@@ -1,7 +1,7 @@
 # PRESENT24
 ## Présentation du projet
 * Chiffrement et déchiffrement du chiffrement par bloc PRESENT24 inspiré du chiffrement PRESENT.
-* Implémentation de l’attaque par le milieu (meet in the middle) sur la version double 2PRESENT24.
+* Implémentation de l’attaque par le milieu (meet in the middle) sur le chiffrement par bloc 2PRESENT24.
 * Pour plus d'information vous pouvez lire le pdf: [sujet_projet.pdf](https://github.com/juliecsl/PRESENT24/blob/main/sujet_projet.pdf)
 
 
